@@ -1,0 +1,13 @@
+<script>
+myLocation = window.location.href;
+console.log(myLocation);
+params = myLocation.split("?");
+
+var urls = new Array();
+urls[0] = "https://articles.smartasset.com/page-title/index.html?utm_medium=pagetitle_ux_design1";
+
+var random = Math.floor(Math.random()*urls.length);
+
+baseURL = urls[random];
+window.location = baseURL + '&' + params[1];
+</script>

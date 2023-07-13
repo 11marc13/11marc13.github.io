@@ -1,0 +1,188 @@
+/* ADS */
+// .smartasset-ad1{
+//     grid-area: threeTwoTop-left;
+// }
+
+// .smartasset-ad2{
+//     grid-area: threeTwoTop-middle;
+// }
+
+// .smartasset-ad3{
+//     grid-area: threeTwoTop-right;
+// }
+
+.smartasset-ads{
+    div {
+        width: 260px;
+        height: 260px;
+        /* images and gap should add up to 840px */
+
+        &:nth-child(4) {
+            width: 550px;
+        }
+
+        &:nth-child(6) {
+            width: 405px;
+        }
+
+        &:nth-child(7) {
+            width: 405px;
+        }
+
+        @media(max-width: 630px){
+            width: 180px;
+            height: 180px;
+
+            &:nth-child(4) {
+                width: 380px;
+                height: 142px;
+            }
+
+            &:nth-child(6) {
+                width: 282px;
+            }
+    
+            &:nth-child(7) {
+                width: 282px;
+            }
+
+
+        }
+
+        @media(max-width: 400px){
+            &:nth-child(4) {
+                width: 300px;
+                height: 142px;
+            }
+        }
+    }
+    @media(max-width: 464px){
+        width: 90%;
+    }
+}
+
+.smartasset-ad4{
+    @media(max-width: 630px){
+        img{
+            height: 180px;
+            width: auto;
+        }
+    }
+
+    @media(max-width: 464px){
+        // width: fit-content;
+        // height: 126px;
+        img{
+            width: 300px;
+            height: auto;
+        }
+
+    }
+
+}
+
+// .smartasset-ad5{
+//     grid-area: threeTwoMiddle-right;
+// }
+
+.smartasset-emailCapture {
+    img {
+        height: 260px;
+        width: 405px;
+    }
+
+
+    @media(max-width: 630px){
+        img{
+            height: 180px;
+            width: auto;
+        }
+    }
+}
+
+.smartasset-web{
+    @media(max-width: 464px){
+        width: 100%;
+    }
+}
+// .smartasset-banner-height {
+//     height: 740px;
+//     max-width: 1200px;
+
+//     @media(max-width: 979px){
+//         height: 480px;
+//     }
+
+//     @media(max-width: 799px){
+//         height: 371px;
+//     }
+
+//     @media(max-width: 600px){
+//         height: 810px;
+//         div:nth-child(1){
+//             height: 471px;
+//         }
+
+//     }
+
+
+
+//     div:nth-child(3){
+//         width: 456px;
+//         height: auto;
+
+//         @media(max-width: 1135px){
+//             width: 300px;
+//         }
+
+//         @media(max-width: 799px){
+//             width: 200px;
+//         }
+//     }
+// }
+
+// .smartasset-advisorMarketing-banner {
+//     @media(max-width: 979px){
+//         width: 170px !important;
+
+//     }
+
+//     @media(max-width: 799px){
+//         width: 130px !important;
+//     }
+
+//     img {
+//         width: inherit;
+
+//         @media(max-width: 979px){
+//             width: 170px;
+//         }
+
+//         @media(max-width: 799px){
+//             width: 130px;
+//         }
+        
+
+//     }
+// }
+
+// .smartasset-banners{
+//     @media(max-width: 480px){
+//         width: 100%;
+//     }
+// }
+
+.smartasset-advisorMarketing-banner{
+    @media(max-width: 939px){
+        height: 693px;
+    }
+
+    @media(max-width: 480px){
+        width: 243px !important;
+    }
+text-align: center;
+    img{
+        height: auto;
+        width: 243px;
+    }
+}

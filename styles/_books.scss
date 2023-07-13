@@ -1,0 +1,99 @@
+.book-grid{
+    display: flex;
+    // flex-direction: row;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 630px){
+        gap: 20px;
+    }
+
+
+    .full-book{
+        width: fit-content;
+        height: 394px;
+
+        img{
+            width: 600px;
+            height: auto;
+        }
+
+        @media(max-width: 660px){
+            width: fit-content;
+            height: 328px;
+    
+            img{
+                width: 500px;
+                height: auto;
+            }
+        }
+
+        @media(max-width: 560px){
+            width: fit-content;
+            height: 263px;
+    
+            img{
+                width: 400px;
+                height: auto;
+            }
+        }
+
+        @media(max-width: 468px){
+            width: fit-content;
+            height: 230px;
+    
+            img{
+                width: 350px;
+                height: auto;
+            }
+        }
+
+        @media(max-width: 410px){
+            width: fit-content;
+            height: 197px;
+    
+            img{
+                width: 300px;
+                height: auto;
+            }
+        }
+        
+    }
+
+    .zoom-book{
+        width: fit-content;
+        height: 321px;
+        img{
+            width: 405px;
+            height: auto;
+        }
+
+        @media(max-width: 560px){
+            width: fit-content;
+            height: 279px;
+            img{
+                width: 350px;
+                height: auto;
+            }
+        }
+
+        @media(max-width: 468px){
+            width: fit-content;
+            height: 238px;
+            img{
+                width: 300px;
+                height: auto;
+            }
+        }
+
+        @media(max-width: 410px){
+            width: fit-content;
+            height: 230px;
+            img{
+                width: 250px;
+                height: auto;
+            }
+        }
+    }
+}

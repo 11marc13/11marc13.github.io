@@ -1,0 +1,199 @@
+/* NAV */
+header {
+    background-color: #DFF5EF;
+    position: fixed;
+    width: 100%;
+
+    z-index: 100;
+    filter: drop-shadow(0px -50px 30px #4c4c4c72);
+    // display: flex;
+
+    nav {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+
+        h1 {
+            padding-bottom: 0px;
+            transition: all 0.3s ease 0s;
+
+            &:hover {
+                color: $light-blue;
+                transition: all 0.3s ease 0s;
+            }
+        }
+
+        .nav-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 60px;
+            font-weight: 600;
+
+
+            @media(max-width: 768px) {
+                position: fixed;
+                left: 130%;
+                top: 60px;
+                gap: 0;
+                flex-direction: column;
+                background-color: $dark-teal;
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+
+                a {
+                    padding-top: 9px;
+                    padding-bottom: 9px;
+
+                    &:last-child{
+                        padding-bottom: 12px;
+                    }
+                }
+
+                &.active {
+                    left: 0;
+                    padding-left: 0px;
+
+                }
+            }
+
+            .mobile-only{
+                display: none;
+
+                @media(max-width: 768px){
+                    display: block;
+                }
+            }
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+
+            .bar {
+                display: block;
+                width: 40px;
+                height: 4px;
+                border-radius: 20px;
+                margin: 6px auto;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                background-color: $navy-blue;
+            }
+
+            @media(max-width: 768px) {
+                display: block;
+
+                &.active .bar:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &.active .bar:nth-child(1) {
+                    transform: translateY(10px) rotate(45deg);
+                }
+
+                &.active .bar:nth-child(3) {
+                    transform: translateY(-10px) rotate(-45deg);
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+/* BUTTON */
+button {
+    border-radius: 100px;
+    background: $navy-blue;
+    border-color: $navy-blue;
+    border-style: solid;
+    border-width: 2px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: $bold-font;
+    font-size: $body-font-size;
+    padding: 10px 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: $light-teal;
+    cursor: pointer;
+    // box-shadow: 2.91px 2.91px 14.53px 2.91px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        background: $light-blue;
+        border-color: $light-blue;
+        // color: $dark-teal;
+        transition: all 0.3s ease 0s;
+    }
+}
+
+/* LAYERED HEADLINES */
+.layered-headlines-container {
+    display: block;
+    padding-bottom: 12px;
+
+    @media(max-width: 500px) {
+        padding-bottom: 0px;
+      }
+
+    .layered-headlines {
+        position: relative;
+
+        h1:nth-child(2) {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: $dark-teal;
+            color: transparent;
+            // color: $dark-teal;
+            z-index: -1;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+        }
+    }
+}
+
+/* FOOTER */
+footer {
+    margin: 0;
+    // padding: 20px 0px;
+    background-color: $light-teal;
+
+    .footer-content {
+        width: fit-content;
+
+        a {
+            text-decoration: none;
+            color: $navy-blue;
+            transition: all 0.3s ease 0s;
+
+            h3:hover {
+                color: $light-blue;
+                transition: all 0.3s ease 0s;
+            }
+        }
+
+        h3:nth-child(4) {
+            padding-bottom: 0px;
+        }
+
+        @media(max-width: 500px) {
+            h3{
+                font-size: 18px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                line-height: 34px;
+            }
+          }
+    }
+}

@@ -1,0 +1,242 @@
+.honoria-final {
+    width: 600px;
+    justify-content: center;
+
+    @media(max-width: 650px) {
+        width: 300px;
+    }
+
+    @media(max-width: 380px) {
+        width: 270px !important;
+    }
+    div {
+        width: fit-content;
+
+        @media(max-width: 650px) {
+            width: 300px;
+        }
+
+        @media(max-width: 380px) {
+            width: 270px;
+            height: 125px;
+        }
+
+        img {
+            width: 600px;
+            height: auto;
+
+            @media(max-width: 650px) {
+                width: 300px;
+                height: auto;
+            }
+
+            @media(max-width: 380px) {
+                width: 270px;
+                height: auto;
+            }
+        }
+    }
+
+}
+
+
+
+.honoria-grid {
+    gap: 80px;
+    align-items: center;
+
+    @media(max-width: 650px) {
+        gap: 60px;
+    }
+
+    @media(max-width: 470px) {
+        width: 380px;
+    }
+
+    @media(max-width: 380px) {
+        width: 360px !important;
+    }
+
+    div:nth-child(1) {
+        text-align: center;
+        height: 189px;
+
+        @media(max-width: 650px) {
+            height: 140px;
+        }
+
+        @media(max-width: 470px) {
+            height: 117px;
+        }
+
+        @media(max-width: 380px) {
+            width: 225px;
+            height: 105px;
+        }
+        
+
+        img {
+            @media(max-width: 650px) {
+                width: 300px;
+                height: auto;
+            }
+
+            @media(max-width: 470px) {
+                width: 250px;
+                height: auto;
+            }
+
+            @media(max-width: 380px) {
+                width: 225px;
+                height: auto;
+            }
+        }
+    }
+
+
+    div:nth-child(2) {
+        width: fit-content;
+        height: 183px;
+
+        @media(max-width: 650px) {
+            height: 127px;
+        }
+
+        @media(max-width: 470px) {
+            height: 99px;
+        }
+
+        img {
+            width: 260px;
+            height: auto;
+
+            @media(max-width: 650px) {
+                width: 180px;
+                height: auto;
+            }
+
+            @media(max-width: 470px) {
+                width: 140px;
+                height: auto;
+            }
+        }
+    }
+
+    div:nth-child(3) {
+        text-align: center;
+        height: 181px;
+
+        @media(max-width: 650px) {
+            height: 140px;
+        }
+
+        @media(max-width: 470px) {
+            height: 117px;
+        }
+
+        @media(max-width: 380px) {
+            width: 225px;
+            height: 101px;
+        }
+
+
+
+        img {
+            @media(max-width: 650px) {
+                width: 300px;
+                height: auto;
+            }
+
+            @media(max-width: 470px) {
+                width: 250px;
+                height: auto;
+            }
+
+            @media(max-width: 380px) {
+                width: 225px;
+                height: auto;
+            }
+        }
+    }
+
+    div:nth-child(4) {
+        width: fit-content;
+        height: 147px;
+
+        @media(max-width: 650px) {
+            height: 127px;
+        }
+
+        @media(max-width: 470px) {
+            height: 79px;
+        }
+
+
+        img {
+            width: 260px;
+            height: auto;
+
+            @media(max-width: 650px) {
+                width: 180px;
+                height: auto;
+            }
+
+            @media(max-width: 470px) {
+                width: 140px;
+                height: auto;
+            }
+        }
+    }
+}
+
+.sketches {
+    gap: 30px;
+
+    @media(max-width: 630px) {
+        gap: 20px;
+    }
+
+    div:nth-child(1) {
+        height: 275px;
+        width: 335px;
+        text-align: center;
+
+        @media(max-width: 470px) {
+            height: 198px;
+            width: 240px;
+        }
+        
+
+        img {
+            height: 275px;
+            width: auto;
+
+            @media(max-width: 470px) {
+                width: 240px;
+                height: auto;
+            }
+        }
+    }
+
+    div:nth-child(2) {
+        height: 250px;
+        width: 260px;
+        text-align: center;
+
+        @media(max-width: 470px) {
+            width: 200px;
+            height: 193px;
+        }
+
+        img {
+            height: 250px;
+            width: auto;
+
+            @media(max-width: 470px) {
+                width: 200px;
+                height: auto;
+            }
+        }
+
+    }
+}
