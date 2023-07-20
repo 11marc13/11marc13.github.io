@@ -1,9 +1,57 @@
+.work-experience {
+    padding-bottom: 50px;
+
+    .tile {
+        &:nth-child(1) {
+            background-image: url("/images/smartasset-tile.png");
+        }
+
+
+        &:nth-child(2) {
+            background-image: url("/images/hotels-tile.png");
+        }
+
+    }
+
+}
+
+.personal-projects {
+    .tile {
+
+        &:nth-child(1) {
+            background-image: url("/images/adidas-tile.jpg");
+        }
+
+        &:nth-child(2) {
+            background-image: url("/images/safety-tile.png");
+        }
+
+        &:nth-child(3) {
+            background-image: url("/images/science-tile.jpeg");
+        }
+
+        &:nth-child(4) {
+            background-image: url("/images/banksy-tile.jpeg");
+        }
+
+        &:nth-child(5) {
+            background-image: url("/images/books-tile.jpg");
+        }
+
+        &:nth-child(6) {
+            background-image: url("/images/honoria-tile.png");
+        }
+
+    }
+}
+
 .homepage-tiles {
     display: flex;
     gap: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
 
     .tile {
         width: 550px;
@@ -15,38 +63,6 @@
         background-position: center;
         background-size: cover;
         border: none;
-
-        &:nth-child(1){
-            background-image: url("/images/smartasset-tile.png");
-        }
-
-        &:nth-child(2){
-            background-image: url("/images/hotels-tile.png");
-        }
-
-        &:nth-child(3){
-            background-image: url("/images/adidas-tile.jpg");
-        }
-
-        &:nth-child(4){
-            background-image: url("/images/safety-tile.png"); 
-        }
-
-        &:nth-child(5){
-            background-image: url("/images/science-tile.jpeg"); 
-        }
-
-        &:nth-child(6){
-            background-image: url("/images/banksy-tile.jpeg"); 
-        }
-
-        &:nth-child(7){
-            background-image: url("/images/books-tile.jpg"); 
-        }
-
-        &:nth-child(8){
-            background-image: url("/images/honoria-tile.png"); 
-        }
 
         .tile-hover {
             display: flex;
@@ -80,12 +96,12 @@
             }
         }
 
-        @media(max-width: 768px){
+        @media(max-width: 768px) {
             width: 400px;
             height: 250px;
         }
 
-        @media(max-width: 500px){
+        @media(max-width: 500px) {
             width: 300px;
             height: 150px;
         }
