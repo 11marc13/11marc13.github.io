@@ -17,18 +17,19 @@
 
 .personal-projects {
     .tile {
-
         &:nth-child(1) {
-            background-image: url("/images/adidas-tile.jpg");
+            background-image: url("/images/science-tile.jpeg");
         }
 
         &:nth-child(2) {
-            background-image: url("/images/safety-tile.png");
+            background-image: url("/images/adidas-tile.jpg");
         }
 
         &:nth-child(3) {
-            background-image: url("/images/science-tile.jpeg");
+            background-image: url("/images/safety-tile.png");
         }
+
+
 
         &:nth-child(4) {
             background-image: url("/images/banksy-tile.jpeg");
