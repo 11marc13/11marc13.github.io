@@ -11,7 +11,7 @@
 //     grid-area: threeTwoTop-right;
 // }
 
-.smartasset-ads{
+.smartasset-ads {
     div {
         width: 260px;
         height: 260px;
@@ -29,7 +29,7 @@
             width: 405px;
         }
 
-        @media(max-width: 630px){
+        @media(max-width: 630px) {
             width: 180px;
             height: 180px;
 
@@ -41,7 +41,7 @@
             &:nth-child(6) {
                 width: 282px;
             }
-    
+
             &:nth-child(7) {
                 width: 282px;
             }
@@ -49,30 +49,32 @@
 
         }
 
-        @media(max-width: 400px){
+        @media(max-width: 400px) {
             &:nth-child(4) {
                 width: 300px;
                 height: 142px;
             }
         }
     }
-    @media(max-width: 464px){
+
+    @media(max-width: 464px) {
         width: 90%;
     }
 }
 
-.smartasset-ad4{
-    @media(max-width: 630px){
-        img{
+.smartasset-ad4 {
+    @media(max-width: 630px) {
+        img {
             height: 180px;
             width: auto;
         }
     }
 
-    @media(max-width: 464px){
+    @media(max-width: 464px) {
+
         // width: fit-content;
         // height: 126px;
-        img{
+        img {
             width: 300px;
             height: auto;
         }
@@ -92,19 +94,79 @@
     }
 
 
-    @media(max-width: 630px){
-        img{
+    @media(max-width: 630px) {
+        img {
             height: 180px;
             width: auto;
         }
     }
 }
 
-.smartasset-web{
-    @media(max-width: 464px){
+.smartasset-web {
+    max-width: unset;
+    flex-wrap: nowrap;
+
+    // padding-bottom: 20px;
+    img {
+        width: 50%;
+        height: auto;
+
+    }
+
+    .best-states-mobile-mock {
+        width: 20%;
+        height: auto;
+
+        @media(max-width: 768px) {
+            width: 30%;
+            height: auto;
+        }
+
+        @media(max-width: 550px) {
+            width: 50%;
+            height: auto;
+        }
+
+        @media(max-width: 380px) {
+            width: 70%;
+            height: auto;
+
+        }
+
+    }
+
+    @media(max-width: 768px) {
+        flex-wrap: wrap;
+
+        img {
+            width: 70%;
+            height: auto;
+
+        }
+    }
+
+    @media(max-width: 550px) {
+        img {
+            width: 100%;
+            height: auto;
+
+        }
+    }
+
+    @media(max-width: 380px) {
+        img {
+            width: 130%;
+            height: auto;
+
+        }
+    }
+
+
+    @media(max-width: 464px) {
         width: 100%;
     }
 }
+
 // .smartasset-banner-height {
 //     height: 740px;
 //     max-width: 1200px;
@@ -161,7 +223,7 @@
 //         @media(max-width: 799px){
 //             width: 130px;
 //         }
-        
+
 
 //     }
 // }
@@ -172,16 +234,18 @@
 //     }
 // }
 
-.smartasset-advisorMarketing-banner{
-    @media(max-width: 939px){
+.smartasset-advisorMarketing-banner {
+    @media(max-width: 939px) {
         height: 693px;
     }
 
-    @media(max-width: 480px){
+    @media(max-width: 480px) {
         width: 243px !important;
     }
-text-align: center;
-    img{
+
+    text-align: center;
+
+    img {
         height: auto;
         width: 243px;
     }
